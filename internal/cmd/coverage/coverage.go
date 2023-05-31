@@ -126,7 +126,7 @@ or a lcov trace file.
     cifuzz coverage <fuzz test>
 
 ` + pterm.Style{pterm.Reset, pterm.Bold}.Sprint("HTML") + `
-    cifuzz coverage --output coverage-report <fuzz test>
+    cifuzz coverage --output=coverage-report <fuzz test>
 
 ` + pterm.Style{pterm.Reset, pterm.Bold}.Sprint("LCOV") + `
     cifuzz coverage --format=lcov <fuzz test>
